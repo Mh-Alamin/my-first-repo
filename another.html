@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Another responsive file</title>
+    <style>
+
+        body{
+            max-width:800px;
+            margin: 0 auto;
+        }
+
+        h2{
+            font-size: 10vw;
+        }
+
+        .tiger img{
+            width:100%;
+        }
+
+        .container-two{
+            display: flex;
+        }
+
+        .container-two .split{
+            width: 50%;
+        }
+
+        .split img{
+            width: 100%;
+        }
+
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap:10px;
+        }
+
+        .food{
+            border:2px solid indianred;
+            padding:10px;
+            border-radius: 5px;
+        }
+
+        .food img{
+            width:100%;
+        }
+
+        @media screen and (max-width : 576px){
+            .container-two{
+            flex-direction: column;
+        }
+
+        .container-two .split{
+            width: 100%;
+        }
+
+        .container{
+            grid-template-columns: repeat(1, 1fr);
+        }
+       }
+    </style>
+</head>
+<body>
+     
+     <section>
+        <h2>My Responsive Websites</h2>
+     </section>
+
+     <section class="tiger">
+        <h2>Tiger</h2>
+        <img src="tiger.jpeg">
+     </section>
+
+     <section>
+         <h2>Two Parts</h2>
+         <div class="container-two">
+            <div class="split">
+                <img src="bbc.jpg">
+            </div>
+            <div class="split">
+                <img src="tiger.jpeg">
+            </div>
+         </div>
+     </section>
+
+     <section>
+          <h2>Multi Column</h2>
+          <div class="container">
+            <div class="food">
+                <img src="bbc.jpg" alt="">
+                <h3>item-1</h3>
+                <h4>price: 1100</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta quia maiores repellat ullam! Eius distinctio dignissimos delectus dolorum veniam accusamus?</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="bbc.jpg" alt="">
+                <h3>item-2</h3>
+                <h4>price: 2100</h4>
+                <p>Possimus quae animi dolores eos! Nihil soluta nemo mollitia odio qui sunt blanditiis a ut? Nostrum quos facilis quaerat blanditiis!</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="bbc.jpg" alt="">
+                <h3>item-3</h3>
+                <h4>price: 3100</h4>
+                <p>Laborum, est ipsam culpa voluptas distinctio asperiores tempore maiores, reiciendis doloremque recusandae sunt nostrum quasi totam nulla commodi dignissimos saepe.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="bbc.jpg" alt="">
+                <h3>item-4</h3>
+                <h4>price: 4100</h4>
+                <p>Totam laudantium animi inventore fugit voluptatibus consequatur dolores? Quo facilis ab iste commodi ex, ullam reiciendis rem illo eius. Laboriosam?</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="bbc.jpg" alt="">
+                <h3>item-5</h3>
+                <h4>price: 5100</h4>
+                <p>Non architecto consequatur amet nostrum molestias ipsa odio, accusantium quaerat minima aliquam repudiandae eos earum voluptas quas, dolores fuga! Omnis?</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="bbc.jpg" alt="">
+                <h3>item-6</h3>
+                <h4>price: 6100</h4>
+                <p>Atque, sint dicta? Exercitationem sequi ratione sed animi voluptatum commodi esse vel sint distinctio doloremque veniam doloribus, placeat culpa error.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="bbc.jpg" alt="">
+                <h3>item-7</h3>
+                <h4>price: 7100</h4>
+                <p>Voluptatibus aliquam omnis delectus itaque quis ex, libero dolore, iure, consequatur nulla corporis commodi odio quod culpa debitis cumque blanditiis.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="bbc.jpg" alt="">
+                <h3>item-8</h3>
+                <h4>price: 8100</h4>
+                <p>Consequatur in totam nam soluta optio hic quos ut incidunt natus, possimus ipsa iure ea corporis quidem eligendi eius omnis!</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="bbc.jpg" alt="">
+                <h3>item-9</h3>
+                <h4>price: 9100</h4>
+                <p>Mollitia quisquam omnis, alias eligendi aliquam placeat impedit! Aliquid nihil consequuntur corporis at minus illo maiores aperiam commodi facilis quo!</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="bbc.jpg" alt="">
+                <h3>item-10</h3>
+                <h4>price: 10100</h4>
+                <p>Excepturi ea exercitationem, modi ipsum amet adipisci? Quasi officia quia assumenda, totam veritatis odio, quo impedit necessitatibus, eos porro tempore?</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="bbc.jpg" alt="">
+                <h3>item-11</h3>
+                <h4>price: 11100</h4>
+                <p>Excepturi, eveniet? Perspiciatis quam aliquam pariatur. A neque assumenda in voluptates, consectetur animi dolorem id ad tempore voluptas. Dolore, maiores.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="bbc.jpg" alt="">
+                <h3>item-12</h3>
+                <h4>price: 12100</h4>
+                <p>Molestias, obcaecati? Non porro neque dolores rem corporis! Vero velit maxime culpa numquam magnam? Ex veritatis pariatur eveniet eligendi repudiandae!</p>
+                <button>Order Now</button>
+            </div>
+          </div>
+     </section>
+
+</body>
+</html>
