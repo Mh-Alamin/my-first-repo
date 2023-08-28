@@ -48,6 +48,17 @@
             width:100%;
         }
 
+        .box{
+            background-color: antiquewhite;
+            height: 200px;
+            width:100%;
+        }
+
+        .container-3{
+            display: flex;
+            gap:10px;
+        }
+
         @media screen and (max-width : 576px){
             .container-two{
             flex-direction: column;
@@ -59,6 +70,10 @@
 
         .container{
             grid-template-columns: repeat(1, 1fr);
+        }
+
+        .container-3{
+            flex-direction: column;
         }
        }
     </style>
@@ -174,6 +189,21 @@
                 <button>Order Now</button>
             </div>
           </div>
+     </section>
+
+     <section class="container-3">
+        <div class="box">
+            <h3>Box-1</h3>
+        </div>
+        <div class="box">
+            <h3>Box-2</h3>
+        </div>
+        <div class="box">
+            <h3>Box-3</h3>
+        </div>
+        <div class="box">
+            <h3>Box-4</h3>
+        </div>
      </section>
 
 </body>
